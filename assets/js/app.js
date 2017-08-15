@@ -1,8 +1,7 @@
-jQuery(document).ready(function ($) {
+    jQuery(document).ready(function ($) {
     var roles = [{tech:'Wordpress',color:'#21759B'}, 
 {tech:'Drupal',color:'#0678BE'}, 
-{tech:'Laravel',color:'#F46762'},
-{tech:'Angular', color:'#C3002F'}];
+{tech:'Laravel',color:'#F46762'}];
     //used to determine which is the next roles to be displayed
     var counter =  0;
     var i = 0;
